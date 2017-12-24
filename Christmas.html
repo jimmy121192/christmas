@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Christmas</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+<section id="snow"></section>	
+
+<div class="player" id="meuplayer">
+
+ <h1 class="player-current">Selecione uma música</h1>
+ <div class="player-progress">
+  <div class="player-progress-bar"></div>
+ </div>
+ <div class="player-controls">
+  <button class="player-btn player-prev">&#8739;&#9664;&#9664;</button>
+  <button class="player-btn player-play">&#9654;</button>
+  <button class="player-btn player-pause">&#8739; &#8739;</button>
+  <button class="player-btn player-stop">&#9724;</button>
+  <button class="player-btn player-next">&#9654;&#9654;&#8739;</button>
+  <br>
+	 <label>
+		 <span>Volume</span>
+	 	 <input type="range" min="0" max="100" step="0.1" class="player-volume-slider">
+	 </label>
+	 <label>
+		<input type="checkbox" value="0" class="player-repeat">
+		<span>Repeat</span>
+	</label>
+ </div>
+
+ <!-- Playlist	 -->
+ <ul class="player-playlist">
+	 <li data-src="./Noel/1.mp3">Angel We Had Heard On High</li>
+	 <li data-src="./Noel/2.mp3">Mary's Boy Child</li>
+	 <li data-src="./Noel/3.mp3">When A Child Is Born</li>
+  	 <li data-src="./Noel/4.mp3">Hark The Herald Angels Sing</li>
+	 <li data-src="./Noel/5.mp3">O Holy Night</li>
+  <li data-src="./Noel/6.mp3">Joy To The World</li>
+  <li data-src="./Noel/7.mp3">The First Noel</li>
+  <li data-src="./Noel/8.mp3">Jingle Bells</li>
+  <li data-src="./Noel/9.mp3">Silent Night</li>
+	 <li data-src="./Noel/10.mp3">Santa Claus Is Coming To Town</li>
+	 <li data-src="./Noel/11.mp3">When Christmas Comes To Town</li>
+	  <li data-src="./Noel/12.mp3">We Wish You A Merry Christmas</li>
+ </ul>
+</div>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./script.js"></script>
+
+</body>
+</html>
+
